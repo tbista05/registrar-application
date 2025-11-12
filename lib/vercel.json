@@ -1,0 +1,14 @@
+{
+  "version": 2,
+  "functions": {
+    "pages/api/*.js": {
+      "includeFiles": "reg.sqlite"
+    }
+  },
+  "builds": [
+    { "src": "next.config.js", "use": "@vercel/next" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
