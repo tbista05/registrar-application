@@ -5,7 +5,6 @@
       "includeFiles": "reg.sqlite"
     }
   },
-  "routes": [
-    { "src": "/(.*)", "dest": "/$1" }
-  ]
+  "routes": [{ "src": "/(.*)", "dest": "/$1" }]
 }
+
